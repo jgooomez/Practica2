@@ -1,0 +1,20 @@
+public class Alumno {
+    private String nombre;
+    private String apellido;
+    private double media;
+
+    public Alumno(String nombre, String apellido, double media) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.media = media;
+    }
+
+    @Override
+    public String toString() {
+        return "Alumno{" +
+                "nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", media=" + media +
+                '}';
+    }
+}
